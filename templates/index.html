@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="_fragments :: head(~{::title})">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>首页</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+  <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+</head>
+<body>
+
+        <!--导航-->
+        <nav class="ui inverted attached segment m-padded-tb-mini m-shadow-small" >
+          <div class="ui container">
+            <div class="ui inverted secondary stackable menu">
+              <h2 class="ui teal header item">亭上美景</h2>
+              <a href="./index.html" class="active  m-item item m-mobile-hide"><i class="mini home icon"></i>&nbsp;&nbsp;&nbsp;首页</a>
+              <a href="./types.html" class=" m-item item m-mobile-hide"><i class="mini idea icon"></i>&nbsp;&nbsp;&nbsp;衣·穿兰亭</a>
+              <a href="./tags.html" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>&nbsp;&nbsp;&nbsp;吃·品兰亭</a>
+              <a href="./archives.html" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>&nbsp;&nbsp;&nbsp;住·息兰亭</a>
+              <a href="./museum.html" class="m-item item m-mobile-hide"><i class="mini info icon"></i>&nbsp;&nbsp;&nbsp;行·游兰亭</a>
+              <div class="right m-item item m-mobile-hide">
+                <div class="ui icon inverted transparent input m-margin-tb-tiny">
+                  <input type="text" placeholder="Search....">
+                  <i class="search link icon"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+          </a>
+        </nav>
+
+
+
+
+
+
+
+
+  <!--中间内容-->
+  <div  class="m-container m-padded-tb-big">
+    <div class="ui container">
+      <div class="ui stackable grid">
+
+
+
+
+        <!--左边博客列表-->
+        <div class="sixteen wide column">
+          <div class="ui segment">
+            <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.e5ErU-WSQZlcoOSeYwgh7gHaEb?pid=ImgDet&rs=1" style="width: 1300px" alt="" class="ui rounded image">
+          </div>
+
+
+          <p class="typo-first">临沂，古称琅琊、沂州，山东省辖地级市，Ⅱ型大城市 [266]  ，国务院批复确定的鲁东南地区中心城市、具有滨水特色的现代工贸城市和商贸物流中心，山东省重要的商品粮基地。 [2-3]   截至2020年，全市下辖3个区、9个县，总面积17191.2平方千米。 [4-5]   [233]  根据第七次人口普查数据，临沂市常住人口为11018365人。 [232]  2021年，临沂实现地区生产总值5465.5亿元 [250]  。
+临沂因临沂河得名，地处中国华东地区、山东东南部、黄海西岸、长三角经济圈与环渤海经济圈结合点、东陇海国家级重点开发区域和鲁南临港产业带，是物流周转中心和商贸批发中心之一，被誉为“商贸名城”和“物流之都” [6]  。临沂属温带季风气候，自北有沂蒙等山脉延伸控制着沂沭河上游流向，向南冲积出广袤的临郯苍平原 [7]  。
+临沂是东夷文化的核心发祥地 [8-9]  ，大约20万年以前，人类的祖先就在沂蒙大地上创造了远古文明， [10]  自西周建城以来已有3000多年的建城史 [11]  ，地域曾长期作为徐州刺史部、琅琊郡、东海郡、沂州府等州、郡、府治所地 [12-13]  。近代中国共产党在临沂地区创建沂蒙革命根据地，成立了山东省政府、中共中央华东局、华东军区等党政机关 [14]  。
+临沂获评首批国家物流枢纽 [16]  、中国物流之都、中国食品之都 [17]  、中国十佳生态宜居典范城市、 [19]  中国最具投资价值十大城市 [20]  、世界滑水之城、 [21]  联合国绿色工业平台 [22]  和全国文明城市等称号。</p>
+
+
+
+         
+        </div>
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <!--底部footer-->
+  <footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+      <div class="ui inverted divided stackable grid">
+        <div class="three wide column">
+          <div class="ui inverted link list">
+            <div class="item">
+              <img src="../static/images/wechat.jpg" class="ui rounded image" alt="" style="width: 110px">
+            </div>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">最新博客</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">用户故事（User Story）</a>
+            <a href="#" class="item">用户故事（User Story）</a>
+            <a href="#" class="item">用户故事（User Story）</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced ">联系我</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Email: chentingxian195467@163.com</a>
+            <a href="#" class="item">QQ: 1970438209</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header m-text-thin m-text-spaced">介绍</h4>
+          <p class="m-text-thin m-text-spaced m-opacity-mini">这是博客，一篇博客，一篇完整的博客。如果你想了解更多，可以扫描左侧二维码，虽然不一定有用</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright @ 2022 C_T_X Designed by Lirenmi(B站), wrote by me for JavaEE work</p>
+    </div>
+  </footer>
+
+<style>
+	/*二话不说，上来就用通配符删除浏览器默认 值*/
+	*{
+		margin:0;
+		padding: 0;
+	}
+	
+	#main{
+		width: 1200px;
+		height: 600px;
+		position: relative;
+		margin: 50px auto;/*为了在此的观看效果，我选择了这个数据*/
+		overflow: hidden;/*因为设置了隐藏，所示的效果只有一张solid1*/
+		/*可在元素赠加和定位完成后进行影藏*/
+	}
+	/*
+	 * 为所以图片设置同main一样宽高不大推荐
+	 	因为，如果图片没进行过处理，强制改变宽高，容易产生变形，
+	 	图片将变得难看。
+	 * *//*为了使图片叠加所以我们使用absolute，在此之前
+	 * 	我们需要去它的父级添加一个relative。
+	 * */
+	#main .banner-slide{
+		position: absolute;
+		width: 1200px;
+		height: 600px; 
+		overflow: hidden;/*防止图片过大，超出范围，影响视觉*/
+		display:none;
+	}
+	#main .slide-active{
+		display: block;
+	}
+	/*
+	 * 挨个设置轮播图的图片
+	 * 为了方便在图片所在div加内容，标签
+	 * 我们选择把轮播图内容以background形式出现。
+	 */
+	#main .slide1{
+		background: red;
+	}
+	#main .slide2{
+		background: yellow;
+	}
+	#main .slide3{
+		background: blue;
+	}
+	#main .slide4{
+		background: green;
+	}
+	#main .slide5{
+		background: deepskyblue;
+	}
+	/*ul标签的移动*/
+	#main .dots #dots{
+		position: absolute;
+		margin-top: 560px;/*由于我设置了li高为40，总高600，所以进行
+		560的移动*/
+		margin-left: 275px;/*(1200-5*130)/2*/
+	}
+	#main .dots #dots li{
+		height: 40px;
+		width: 80px;
+		border-radius: 20%;
+		background: gray;/*在此的样式根据个人喜好自己添加*/
+		/*由于上面的定位，所以*/
+		float: left;/*为了是图标自左向右*/
+		margin-left: 50px;
+		list-style: none;
+	}
+	#main .dots #dots .li1{
+		background: blue;
+	}
+	#main #left-right .move{
+		position: absolute;
+		margin-top:260px;
+		height: 80px;
+		width: 40px;
+		font-size: 50px;/*设置<>大小*/
+		padding-left: 10px ;
+	}
+	/*左右分离*/
+	#main #left-right #next{
+		right:0;
+	}
+	/*触碰上下张有效果*/
+	#main #left-right .move:hover{
+		background: rgba(0,0,0,0.4);
+	}
+	
+
+
+
+
+
+</style>
+
+<script>
+//因为之前使用了很多的id，所以我们为了方便得到
+//所需的document.getElementById();,做一个封装函数（我是网上看来觉得挺好的)
+function byid(id){
+		return typeof(id)==='string'?document.getElementById(id):id;
+	//	相当于 return if(typeof(id)==='string'){
+	//		document.getElementById(id);
+	//	}else{
+	//		id;
+	//	}
+	}
+	//接下来开始轮播图脚本了。
+	//为了使得函数很多变量能互相使用，所以我们需要在wai
+	//定义好全局变量。
+	//len的设定   ：  由于长度上的计算很少，而且图片和数字移动数量相同，只需设置一个
+	// index的设定：  设置记数变量，因为数字从0开始计算。
+	var main = byid('main'),
+		pics = byid('banner').getElementsByTagName('div'),
+		dots = byid('dots').getElementsByTagName('li'),
+		prev = byid('prev'),
+		next = byid('next'),
+		len = pics.length,
+		index = 0,
+		timer = null;//timer是为了进行定时器的设置挺与开
+	//定时器的关注
+	function solide(){
+		//轮播定时器（是整个容器即main）：移入鼠标停止，和移出继续轮播
+		//先来个划入清除定时器
+		banner.onmouseover=function(){
+			if(timer){//即timer不为null，为真
+				clearInterval(timer);//清除setinterval，并且此时timer又为false，不过，随着循环（即师表
+				//移开banner，循环继续又变回 setinterval。
+			}
+		}
+		//再写一个划出继续启动定时器
+		banner.onmouseout = function(){
+			timer = setInterval(function(){
+				index++;
+				if(index>=len){
+					index=0;
+				}//注意因为index表示的是图片的标号，最大为4！！
+				//有了index就可以进行轮播了，可是我们没有执行图片变化的番薯
+				//设置一个，在全局作用域中。
+				changImg();
+			},3000);//setInterval为延时不停息的执行
+		}
+		banner.onmouseout();//这样子直接运行function，可以不用在鼠标移出才进行，进入页面同时就开始轮播
+		//接下来我们开始数字下标绑定图片移动；
+		for(var j=0;j<len;j++){
+			//在开始前，我们需要知道，函数是可以独立作用域之外的。
+			dots[j].index=j;//为所以dots属性添加id，分别为0，1，2，3，4。
+			//不太推荐使用这样，毕竟id名字取数字开头不好，不太合规矩。
+			dots[j].onclick = function(){
+				index = this.index;//(引用id的是dots,及dots的id);
+				changImg();
+			}
+		}
+		//然后是上、下一张
+		prev.onclick = function(){
+			index--;
+			if(index<0){
+				index=len-1;
+			}
+			changImg();
+		}
+		next.onclick = function(){
+			index++;
+			if(index>=len){
+				index=0;
+			}
+			changImg();
+		}
+	}
+	solide();//提前写上，开始方法，才有轮播效果
+	//图片自动切换
+	function changImg(){
+		for(var i=0;i<len;i++){
+			pics[i].style.display='none';
+			dots[i].className="";
+		}
+		pics[index].style.display='block';
+		dots[index].className='li1';
+	}
+
+
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+  <script>
+    $('.menu.toggle').click(function () {
+      $('.m-item').toggleClass('m-mobile-hide');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+            /* 全局修改 */
+            
+            body {
+                /*  推荐的渐变色*/
+                      /* background: linear-gradient(0deg, #eebd89, #d13abd); */
+                      /* background: linear-gradient(0deg, #eae5c9, #6cc6cb); */
+                     background: linear-gradient(0deg, #ccfbff, #ead6ee);
+                     
+      /*background:url(https://csdnimg.cn/release/phoenix/template/themes_skin/skin-whitemove/images/bg.gif) ;*/
+      
+                      background-size: cover;
+                      background-position: auto auto;
+                  }
+                  /* 选中的 */
+                  
+                  .xz {
+                      background-color: rgb(83, 82, 82);
+                      color: red;
+                  }
+                  
+                  .xz a {
+                      color: red;
+                  }
+                  
+                  li {
+                      background-color: rgb(196, 192, 192);
+                  }
+                  /* 版心大小1300px */
+                  
+                  .w {
+                      margin: 0 auto;
+                      width: 1300px;
+                  }
+                  /* 顶部图片的区域 */
+                  /* 顶部图片的区域 */
+                  /* 顶部图片的区域 */
+                  /* 顶部图片的区域 */
+                  /* 顶部图片的区域 */
+                  /* 顶部图片的区域 */
+                  
+                  @keyframes qh {
+                      /*---每图片切换有两个阶段：位移切换和静置。中间的效果可以任意定制----*/
+                      0%,
+                      20% {
+                          margin-left: 0px;
+                      }
+                      25%,
+                      40% {
+                          margin-left: -1200px;
+                      }
+                      45%,
+                      60% {
+                          margin-left: -2400px;
+                      }
+                      65%,
+                      80% {
+                          margin-left: -3600px;
+                      }
+                      85%,
+                      100% {
+                          margin-left: -4800px;
+                      }
+                  }
+                  
+                  .box-top {
+                      border-radius: 20px;
+                      width: 1200px;
+                      height: 300px;
+                      overflow: hidden;
+                  }
+                  
+                  .box-top .kuai {
+                      display: block;
+                      background-color: pink;
+                      width: 6600px;
+                      height: 300px;
+                      animation: qh 8s linear infinite;
+                  }
+                  
+                  .box-top li {
+                      float: left;
+                      width: 1200px;
+                      height: 300px;
+                  }
+                  
+                  .box-top img {
+                      width: 1200px;
+                      height: 100%;
+                  }
+                  /* 宣传片部分 */
+                  
+                  .xcp {
+                      margin-top: 10px;
+                      padding-top: 10px;
+                      border-radius: 10px;
+                      height: 740px;
+                      width: 1240px;
+                      background-color: white;
+                      text-align: center;
+                  }
+                  /* 导航栏部分开始了 */
+                  /* 导航栏部分开始了 */
+                  /* 导航栏部分开始了 */
+                  
+                  .box-nav ul {
+                      margin-top: 10px;
+                      text-align: center;
+                      line-height: 50px;
+                      font-size: 20px;
+                      color: black;
+                      font-weight: 700;
+                  }
+                  
+                  .box-nav ul li {
+                      display: inline-block;
+                      width: 16%;
+                      height: 50px;
+                      border-radius: 10px;
+                      /* background-color: #7CCD7C; */
+                  }
+                  
+                  .box-nav ul li:hover {
+                      background-color: rgb(120, 122, 120);
+                  }
+                  /* 主页的主体部分 */
+                  /* 主页的主体部分 */
+                  /* 主页的主体部分 */
+                  /* 主页的主体部分 */
+                  /* 主页的主体部分 */
+                  /* 主页的主体部分 */
+                  
+                  .box-main {
+                      padding-left: 12px;
+                      margin-top: 10px;
+                      text-align: center;
+                  }
+                  
+                  .box-main-mokuai {
+                      float: left;
+                      margin: 0 5px 10px 5px;
+                      width: 630px;
+                      height: 375px;
+                      background-color: #fff;
+                      border-radius: 20px;
+                      color: black;
+                      /* overflow: hidden; */
+                  }
+                  
+                  .box-main-mokuai div {
+                      float: left;
+                  }
+                  
+                  .box-main-mokuai {
+                      padding-top: 20px;
+                  }
+                  
+                  .box-main-mokuai .box-main-mokuai-1 {
+                      width: 260px;
+                      line-height: 260px;
+                  }
+                  
+                  .box-main-mokuai .box-main-mokuai-1 img {
+                      width: 90%;
+                      /* 添加动画 */
+                      transition: all 0.6s;
+                  }
+                  /* 当鼠标经过时放大2倍 */
+                  
+                  .box-main-mokuai .box-main-mokuai-1 img:hover {
+                      transform: scale(2);
+                  }
+                  
+                  .box-main-mokuai .box-main-mokuai .box-main-mokuai-1-img {
+                      height: 80%;
+                  }
+                  
+                  .box-main-mokuai .box-main-mokuai-2 {
+                      /* flex布局 */
+                      display: flex;
+                      /* 设置主轴 */
+                      justify-content: center;
+                      flex-direction: column;
+                      align-items: left;
+                      padding-right: 5px;
+                      width: 360px;
+                      height: 88%;
+                      font-size: 15px;
+                      text-indent: 2em;
+                      text-align: left;
+                  }
+                  /* 外链部分 */
+                  /* 外链部分 */
+                  /* 外链部分 */
+                  
+                  .wl {
+                      height: 180px;
+                      margin-top: 10px;
+                      margin-bottom: 10px;
+                      padding-top: 25px;
+                      border-radius: 20px;
+                      background-color: white;
+                      text-align: center;
+                      font-weight: 700;
+                  }
+                  
+                  .wl ul li {
+                      display: inline;
+                      border-radius: 20px;
+                      background-color: transparent;
+                      font-size: 18px;
+                      margin: 0 10px;
+                  }
+                  /* 页脚部分 */
+                  /* 页脚部分 */
+                  /* 页脚部分 */
+                  
+                  .footer {
+                      width: 100%;
+                      height: 70px;
+                      background-color: #A9A9A9;
+                      text-align: center;
+                  }
+                  
+                  .footer p {
+                      padding-top: 20px;
+                  }
+                  /* 漂浮的广告 */
+                  
+                  .ad {
+                      width: 200px;
+                      height: 200px;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                  }
+                  
+                  .ad-img {
+                      width: 100%;
+                      height: 100%;
+                      float: right;
+                  }
+      
